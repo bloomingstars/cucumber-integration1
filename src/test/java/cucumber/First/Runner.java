@@ -10,8 +10,8 @@ import cucumber.api.junit.Cucumber;
 				{"FeatureFile/exercise.feature"},
 				glue="cucumber.First",
 				//tags={"@search"})
-				plugin={"json:C:\\Users\\swathi.dinakaran\\workspace\\CuCumberFirst\\report.json",
-					"rerun:rerun/failedscenario.txt"})
+				plugin={"json:C:\\Users\\swathi.dinakaran\\workspace\\CuCumberFirst\\report.json"})
+					//,"rerun:rerun/failedscenario.txt"})
 public class Runner {
 
 }

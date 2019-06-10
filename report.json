@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54586667082,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "users open testmeApp",
+            "match": {
+              "location": "exercise1.users_open_testmeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83416234,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username as \"swathi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swathi\"",
+                  "offset": 24
+                }
+              ],
+              "location": "exercise1.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77061466,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "exercise1.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1755345766,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks login button",
+            "match": {
+              "location": "exercise1.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70115781,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verifies login success",
+            "match": {
+              "location": "exercise1.verifies_login_success()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13290896568,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close Testmeapp",
+            "match": {
+              "location": "exercise1.close_Testmeapp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login functionality",
+    "description": "Description: Registered User can use login credentials to get logged in to Testmeapp\nusername-swathi\npassword-password",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "FeatureFile/exercise.feature",
+    "tags": []
+  }
+]
